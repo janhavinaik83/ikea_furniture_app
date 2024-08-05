@@ -1,8 +1,6 @@
 // ignore_for_file: unused_local_variable
 
 import 'dart:typed_data';
-
-import 'package:ar_furniture_app/uploaded_items_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:image_picker/image_picker.dart';
@@ -395,3 +393,4 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
   Widget build(BuildContext context) {
     return imageFileUint8List == null ? defaultScreen() : uploadForeScreen();
   }
+}
