@@ -199,7 +199,7 @@ class _ItemsUploadScreenState extends State<ItemsUploadScreen> {
             leading: const Icon(
               Icons.price_change,
               color: Colors.white,
-            ),
+           ),
             title: SizedBox(
               width: 250,
               child: TextField(
