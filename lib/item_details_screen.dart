@@ -2,6 +2,7 @@ import 'package:ar_furniture_app/items.dart';
 import 'package:ar_furniture_app/virtual_ar_view_screen.dart';
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class ItemDetailsScreen extends StatefulWidget
 {
   Items? clickedItemInfo;

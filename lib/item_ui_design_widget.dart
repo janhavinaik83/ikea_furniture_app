@@ -3,6 +3,7 @@ import 'package:ar_furniture_app/items.dart';
 import 'package:flutter/material.dart';
 
 
+// ignore: must_be_immutable
 class ItemUIDesignWidget extends StatefulWidget
 {
   Items? itemsInfo;
@@ -96,10 +97,10 @@ class _ItemUIDesignWidgetState extends State<ItemUIDesignWidget>
                           alignment: Alignment.topLeft,
                           width: 40,
                           height: 44,
-                          child: Center(
+                          child: const Center(
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
-                              children: const [
+                              children: [
 
                                 Text(
                                   "50%",
